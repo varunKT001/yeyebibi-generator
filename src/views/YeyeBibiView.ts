@@ -124,7 +124,7 @@ export class YeyeBibiView extends View<YeyeBibi, YeyeBibiProps> {
       </section>
       <footer>
         <div class='library'>
-          <span>Build with</span>
+          <span>Built with</span>
           <image src='/yeyebibi-generator/tomper-js.svg' />
           <a href='https://github.com/varunKT001/tomperjs'>TomperJS</a>
         </div>
