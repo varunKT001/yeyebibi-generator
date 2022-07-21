@@ -19,7 +19,7 @@ var Rt=Object.defineProperty;var At=(t,e,r)=>e in t?Rt(t,e,{enumerable:!0,config
       </section>
       <footer>
         <div class='library'>
-          <span>Build with</span>
+          <span>Built with</span>
           <image src='/yeyebibi-generator/tomper-js.svg' />
           <a href='https://github.com/varunKT001/tomperjs'>TomperJS</a>
         </div>
