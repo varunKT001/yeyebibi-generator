@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-small: 0.125rem;
+  --small: 0.25rem;
+  --medium: 0.5rem;
+  --large: 1rem;
+  --very-large: 2rem;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+button {
+  padding: var(--small);
+  font-size: 14px;
+}
+
+main {
+  margin: auto;
+  max-width: 60%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header {
+  margin-top: var(--large);
+  margin-bottom: var(--very-large);
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#input-section,
+#output-section {
+  margin-bottom: var(--large);
+}
+
+#input-section h3 {
+  margin-bottom: var(--medium);
+}
+
+#output-section h3 {
+  margin-bottom: var(--medium);
+}
+
+#input,
+#output {
+  min-width: 100%;
+  max-width: 100%;
+  padding: var(--medium);
+  margin-bottom: var(--medium);
+}
+
+footer {
+  margin-top: var(--very-large);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto Mono', monospace;
+}
+
+footer .library {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  width: 16px;
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 320px) {
+  main {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  main {
+    max-width: 60%;
+  }
+}

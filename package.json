@@ -1,0 +1,20 @@
+{
+  "name": "yeyebibi-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://varunkt001.github.io/yeyebibi-generator",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@varuntiwari/tomperjs": "^1.0.4"
+  }
+}
